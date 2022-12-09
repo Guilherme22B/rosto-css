@@ -1,0 +1,82 @@
+body{
+    background: green;
+}
+main{
+    width: 100vh;
+    height: 100vh;
+    margin: auto;
+    display: block;
+
+}
+div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+div.pupila-maior{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 20px 0px 0px 50px;
+    background-color: white;
+    position: relative;
+}
+div.pupila-menor{
+    width: 30px;
+    height: 30px;
+    margin: 0px 0px 0px 23px;
+    background-color: white;
+    position: relative;
+}
+div.iris{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: black;
+}
+
+div.direita{
+    display: inline-block;
+    margin-left: 250px;
+}
+div.esquerda{
+    margin-left: 70px;
+    display: inline-block;
+}
+
+div.bochecha{
+    border: 1px solid black;
+    margin-top: 70px;
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    background-color: rgb(255, 144, 162);
+}
+div.bochecha-direita{
+    position: absolute;
+}
+div.bochecha-esquerda{
+    position: relative;
+    margin-left: 500px;
+}
+
+div.boca{
+    position: relative;
+    background: linear-gradient(black,80%,black,50%, red);
+    border: 5px solid black;
+    margin-top: 70px;
+    margin-left: 235px;
+    position: absolute;
+    height: 100px;
+    width: 115px;
+}
+div.nariz{
+    border-radius: 0px;
+    position: relative;
+    background: green;
+    margin-top: 13px;
+    margin-left: 235px;
+    position: absolute;
+    height: 100px;
+    width: 130px;
+}

@@ -2,10 +2,9 @@ body{
     background: green;
 }
 main{
-    width: 100vh;
-    height: 100vh;
-    margin: auto;
     display: block;
+    top: 50%;
+    left: 50%;
 
 }
 article#p1{
